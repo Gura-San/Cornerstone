@@ -38,10 +38,8 @@ gem 'capital_one'
 # Flexible authentication solution for Rails
 gem 'devise'
 # Bootstap for rails
-gem 'bootstrap-sass', '~> 3.3.7'
-gem 'sprockets-rails'
-gem 'jquery-rails'
-gem 'popper_js', '~> 1.12.9'
+gem 'bootstrap', '~> 4.0'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
