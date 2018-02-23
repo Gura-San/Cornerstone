@@ -40,6 +40,8 @@ gem 'devise'
 # Bootstap for rails
 gem 'bootstrap', '~> 4.0'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+# httparty for api calls
+gem 'httparty'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -49,6 +51,8 @@ group :development, :test do
   gem 'selenium-webdriver'
   # Gem that generates fake data for seeding the db
   gem 'faker'
+  # Shim to load environment variables from .env into ENV in development.
+  gem 'dotenv-rails'
 end
 
 group :development do
